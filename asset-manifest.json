@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tpbasesdedatos.github.io/static/css/main.ffea1076.css",
+    "main.js": "/tpbasesdedatos.github.io/static/js/main.772714c9.js",
+    "static/js/787.fdaccf81.chunk.js": "/tpbasesdedatos.github.io/static/js/787.fdaccf81.chunk.js",
+    "static/media/Diagrama.png": "/tpbasesdedatos.github.io/static/media/Diagrama.e0d7b20e81df8b58c642.png",
+    "static/media/Tablas.PNG": "/tpbasesdedatos.github.io/static/media/Tablas.e5fe4fdbd4fa835f701b.PNG",
+    "index.html": "/tpbasesdedatos.github.io/index.html",
+    "main.ffea1076.css.map": "/tpbasesdedatos.github.io/static/css/main.ffea1076.css.map",
+    "main.772714c9.js.map": "/tpbasesdedatos.github.io/static/js/main.772714c9.js.map",
+    "787.fdaccf81.chunk.js.map": "/tpbasesdedatos.github.io/static/js/787.fdaccf81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffea1076.css",
+    "static/js/main.772714c9.js"
+  ]
+}
