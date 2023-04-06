@@ -2,37 +2,75 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgb(8, 78, 131) 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.typewriter h1 {
+  color: whitesmoke;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.container-consigna{
+  border:1px solid whitesmoke;
+  border-radius: 8px;
+  width: 80%;
+  margin-top: 25px;
+}
+
+.consigna{
+  color: whitesmoke;
+}
+
+.centrado-diagrama{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.diagrama{
+  margin-top: 3vh; 
+  width: 80%;
+  height: 80%;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  box-shadow: 13px 10px 21px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 13px 10px 21px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 13px 10px 21px -4px rgba(0,0,0,0.75);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titulo-diagrama{
+  font-size: 4vh;
+}
+
+.mongodb{
+  text-align: start;
+  padding-inline: 5px;
+}
+
+.video{
+  margin-top: 5px;
+}
+
+.footer{
+  margin-bottom: 25px;
 }
